@@ -2,7 +2,7 @@
 
 A simple todo-list, implemented using [jQuery](https://jquery.com) (2010 version), [React](https://reactjs.org/), and [Svelte](https://svelte.dev/) (2019 versions).
 
-![./docs/screencapture.gif]
+![demo](./docs/screencapture.gif)
 
 
 ## Take Aways
