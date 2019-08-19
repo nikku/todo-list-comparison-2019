@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>2010 - My Todos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="2010.js"></script>
+
+    <script>
+      var todos = [
+        { name: 'Eat cake', done: false },
+        { name: 'Brush teeth', done: false },
+        { name: 'Call friend', done: true }
+      ];
+
+      new Todos({
+        target: document.getElementById('root'),
+        props: {
+          todos: todos
+        }
+      });
+    </script>
+  </body>
+</html>

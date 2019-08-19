@@ -1,0 +1,16 @@
+body {
+  font: 13px monospace;
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todos .todo.done {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+}

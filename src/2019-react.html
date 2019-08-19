@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>2019 React - My Todos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <script src="/build/2019-react.js"></script>
+
+    <script>
+      var todos = [
+        { name: 'Eat cake', done: false },
+        { name: 'Brush teeth', done: false },
+        { name: 'Call friend', done: true }
+      ];
+
+      new Todos({
+        target: document.querySelector('#root'),
+        props: {
+          todos
+        }
+      });
+    </script>
+  </body>
+</html>
