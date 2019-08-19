@@ -47,6 +47,11 @@ npm start
 ```
 
 
+## Resources
+
+* [Frameworks without the framework](https://svelte.dev/blog/frameworks-without-the-framework)
+
+
 ## License
 
 MIT
