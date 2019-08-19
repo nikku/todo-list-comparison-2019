@@ -18,7 +18,7 @@ A simple todo-list, implemented using [jQuery](https://jquery.com) (2010 version
 
 ```js
 while (dataChange) {
-  applyEffect(dataChange);
+  applyDataEffect(dataChange);
   queueDOMUpdates(dataChange);
 }
 
