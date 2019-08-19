@@ -14,6 +14,28 @@ A simple todo-list, implemented using [jQuery](https://jquery.com) (2010 version
 * __2018:__ a compiler outputs JS that syncs the DOM efficiently like we did in 2010
 
 
+## A Non-Virtual DOM Paint-Cycle
+
+```
+while (dataChangeDetected) {
+  applyDataEffects();
+  queueDOMUpdates();
+}
+
+raf(() => {
+  if (domUpdates) {
+    flushDOMUpdates();
+  }
+});
+```
+
+
+## How Can a Compiler Help
+
+* Bake change detection into the app
+* Bake local, efficient updates into the app
+
+
 ## Build
 
 ```
