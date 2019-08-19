@@ -16,15 +16,15 @@ A simple todo-list, implemented using [jQuery](https://jquery.com) (2010 version
 
 ## A Non-Virtual DOM Paint-Cycle
 
-```
-while (dataChangeDetected) {
-  applyDataEffects();
-  queueDOMUpdates();
+```js
+while (dataChange) {
+  applyEffect(dataChange);
+  queueDOMUpdates(dataChange);
 }
 
 raf(() => {
   if (domUpdates) {
-    flushDOMUpdates();
+    flushDOMUpdates(domUpdates);
   }
 });
 ```
