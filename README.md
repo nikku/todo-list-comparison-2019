@@ -1,4 +1,4 @@
-# todo-list-comparison (2019 version)
+# A Todo-List Technology Review (2019 version)
 
 A simple todo-list, implemented using [jQuery](https://jquery.com) (2010 version), [React](https://reactjs.org/), and [Svelte](https://svelte.dev/) (2019 versions).
 
