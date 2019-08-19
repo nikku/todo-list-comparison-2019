@@ -34,6 +34,8 @@ raf(() => {
 
 * Bake change detection into the app
 * Bake local, efficient updates into the app
+* Bundle only the components that the app needs
+* Be non-existent at run-time
 
 
 ## Build
