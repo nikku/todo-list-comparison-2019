@@ -24,3 +24,7 @@ a {
 .src:before {
   content: 'Source: ';
 }
+
+.build:before {
+  content: 'Build: ';
+}

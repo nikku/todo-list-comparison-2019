@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react/cjs/react.production.min';
+import ReactDOM from 'react-dom/cjs/react-dom.production.min';
 
 class Todos extends React.Component {
 
