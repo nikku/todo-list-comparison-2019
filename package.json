@@ -1,6 +1,7 @@
 {
-  "name": "2019-front-end-no-virtual-dom",
+  "name": "todo-list-tech-review-2019",
   "version": "0.0.0",
+  "private": true,
   "description": "Front-end development in 2019",
   "scripts": {
     "build": "NODE_ENV=production npm run build:svelte && npm run build:react",
