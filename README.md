@@ -49,7 +49,8 @@ npm start
 
 ## Resources
 
-* [Frameworks without the framework](https://svelte.dev/blog/frameworks-without-the-framework)
+* [Frameworks Without the Framework](https://svelte.dev/blog/frameworks-without-the-framework)
+* [Svelte: Building Front-End Applications Without Virtual DOM](https://speakerdeck.com/nikku/svelte-building-front-end-applications-without-virtual-dom)
 
 
 ## License
